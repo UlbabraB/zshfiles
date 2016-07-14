@@ -94,7 +94,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-if [ "$(uname -s)" = "Darwin" ]
+if [ "\$(uname -s)" = "Darwin" ]
 then
     export JAVA_HOME=\$(/usr/libexec/java_home)
 fi
